@@ -13,6 +13,23 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
+
+        .pokedex-img {
+            width: 70%;
+            max-width: 650px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .entren-img {
+            width: 100%;
+            max-width: 750px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
     </style>
 </head>
 <body>
@@ -21,7 +38,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="img/poke_negra.png" alt="Logo Pokémon" width="50" height="50" class="d-inline-block align-text-top">
+                <img src="img/poke_negra.png" width="50" height="50" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,41 +65,52 @@
     <div class="container mt-5 bg-light p-4 rounded" style="opacity: 0.9;">
         <h1>Bienvenido a la página de Pokémon</h1>
         <p class="lead">Descubre todo sobre tus Pokémon favoritos, consulta la Pokédex y conoce a otros entrenadores.</p>
-        <!-- <img src="https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg" alt="Pokémon" class="img-fluid"> -->
     </div>
 
-    <section class="container my-5">
+    <section class="container my-5 bg-dark" style="opacity: 0.99;">
         <div class="row g-4">
-             
-            <!-- <div class="col-md-4">
+    
+            <div class="col-12">
                 <div class="card h-100">
-                    <img src="imagenes/mew.webp" class="card-img-top">
+                    <img src="img/pokedex.png" class="card-img-top entren-img">
                     <div class="card-body">
-                        <h4 class="card-title">Mew</h4>
-                        <p class="card-text">Pokemon chill</p>
+                        <h2 class="card-title">Estúdialos</h2>
+                        <h3 class="card-text">Revisa una Pokédex repleta de distintos Pokémon.</h3>
                     </div>
-                    <div class="card-footer bg-white border-0">
-                        <a class="btn btn-dark">Leer más</a>
+                    <div class="card-footer bg-white border-0 text-end">
+                        <a href="pokedex.html" class="btn btn-dark">Leer más</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4">
+    
+            <div class="col-12">
                 <div class="card h-100">
-                    <img src="imagenes/celebi.webp" class="card-img-top"
-                    >
+                    <img src="img/entrenadores.jpg" class="card-img-top entren-img">
                     <div class="card-body">
-                        <h4 class="card-title">Celebi</h4>
-                        <p class="card-text">El pokemon cebolla superespacial</p>
+                        <h2 class="card-title">Conócelos</h2>
+                        <h3 class="card-text">Consulta los entrenadores más destacados de las diferentes entregas.</3>
                     </div>
-                    <div class="card-footer bg-white border-0">
-                        <a class="btn btn-dark">Leer más</a>
+                    <div class="card-footer bg-white border-0 text-end">
+                        <a href="entrenadores.html" class="btn btn-dark">Leer más</a>
                     </div>
                 </div>
-            </div> -->
-
+            </div>
+    
+            <div class="col-12 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">Contáctanos</h4>
+                        <p class="card-text">Contacta con nosotros si tienes alguna duda.</p>
+                    </div>
+                    <div class="card-footer bg-white border-0 text-end">
+                        <a href="contacto.html" class="btn btn-dark">Leer más</a>
+                    </div>
+                </div>
+            </div>
+    
         </div>
     </section>
+    
 
     <footer class="p-2" style="text-align: center; background-color: black; color: white;">
         <p>Síguenos en nuestras redes sociales:</p>
